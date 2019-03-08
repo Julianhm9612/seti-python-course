@@ -1,1 +1,1 @@
-# python-course
+# seti-python-course
