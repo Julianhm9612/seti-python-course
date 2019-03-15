@@ -9,26 +9,26 @@
 
 ######################## solution 1 #########################
 
-def reverseWord(word):
+def reverse_word(word):
   return word[::-1]
 
 result = 'Hola mundo desde python!'
-result = map(reverseWord, result.split(' '))
+result = map(reverse_word, result.split(' '))
 result = ' '.join(result)
 print(result)
 
 ######################## solution 2 #########################
 
-solution2 = lambda sentence : (' '.join(map(lambda word : word[::-1], sentence.split(' '))))
+solution_2 = lambda sentence : (' '.join(map(lambda word : word[::-1], sentence.split(' '))))
 
-print(solution2('Hola mundo desde python!'))
+print(solution_2('Hola mundo desde python!'))
 
 ######################## solution 3 #########################
 
-def reverseSentence(sentence):
+def reverse_sentence(sentence):
   return ' '.join(map(lambda word : word[::-1], sentence.split(' ')))
 
-print(reverseSentence('Hola mundo desde python!'))
+print(reverse_sentence('Hola mundo desde python!'))
 
 ######################## solution 4 #########################
 

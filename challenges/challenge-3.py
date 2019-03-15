@@ -5,7 +5,7 @@
 # If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise,
 # you can be sure he's not...
 #
-# Input ['Juan', 'Camilo', 'Mateo', 'Luis']
+# Input ('Juan', 'Camilo', 'Mateo', 'Luis')
 #
 
 ######################## solution 1 #########################
@@ -15,12 +15,12 @@ def friend(friends):
 
 ######################## solution 2 #########################
 
-def friendLen(f):
+def friend_len(f):
     if len(f) == 4:
         return f
 
 def friend(friends):
-    return list(filter(friendLen, friends))
+    return list(filter(friend_len, friends))
 
 ######################## solution 3 #########################
 
