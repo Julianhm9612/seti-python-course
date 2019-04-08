@@ -2,7 +2,7 @@ myString = unicode('hello world!', 'utf-8')
 expresion = 'Hey!'
 
 # Mostrar que se puede hacer con el string
-# print(dir(myString))
+print(dir(myString))
 
 print('{} {}'.format(expresion, myString))
 print('Hey! {0}'.format(myString))
